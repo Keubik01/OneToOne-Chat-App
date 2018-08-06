@@ -1,0 +1,14 @@
+
+
+<div style="height: 700px; width: 900px; margin-left: 100px;">
+  <div #scrollMe style="overflow: auto; max-height: 600px;">
+  <div class="container" *ngFor="let message of all_messages">
+    <p *ngIf="message.from_admin">{{message.from_admin}}</p>
+    <p *ngIf="message.from_user">{{message.from_user}}</p>
+    <span class="time-right" *ngIf="message.from_user">{{currentChatuser.username}}</span>
+  </div>
+  </div>
+
+  <input #chatInput (keyup.enter)="sendMessage()" [(ngModel)]="message" />
+  <button (click)="sendMessage()">Send</button>
+</div>

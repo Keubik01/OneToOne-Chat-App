@@ -1,0 +1,1 @@
+{"version":3,"file":"subcat.js","sourceRoot":"","sources":["../../../server/models/subcat.ts"],"names":[],"mappings":";;AAAA,mCAAqC;AAErC,IAAM,YAAY,GAAG,IAAI,QAAQ,CAAC,MAAM,CAAC;IACvC,aAAa,EAAE,MAAM;IACrB,WAAW,EAAE,MAAM;IACnB,eAAe,EAAE,MAAM;CACxB,CAAC,CAAC;AAEH,IAAM,MAAM,GAAG,QAAQ,CAAC,KAAK,CAAC,QAAQ,EAAE,YAAY,CAAC,CAAC;AAEtD,kBAAe,MAAM,CAAC"}

@@ -1,0 +1,63 @@
+
+<div class="breadcrumb-holder">
+        <div class="container-fluid">
+          <ul class="breadcrumb">
+            <li class="breadcrumb-item"><a routerLink="/">Home</a></li>
+            <li class="breadcrumb-item active">Chat-page</li>
+          </ul>
+        </div>
+      </div>
+      <br />
+
+ <section class="forms">
+            <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="card">
+                          <div class="card-header d-flex align-items-center">
+                            <h4>Chat List</h4>
+                          </div>
+                          <div class="card-body">
+
+                            <h2>Chat</h2>
+<div style="overflow-x:auto; height: 500px">
+<table class="table table-hover">
+        <thead>
+        <tr>
+            <th>id</th>
+            <th>User Name</th>
+            <th>Email</th>
+            <th>Chat</th>
+        </tr>
+        </thead>
+
+       <tbody height="100">
+            <tr *ngFor="let helpdeskObj of help_desk_lists; let i = index">
+                <!-- <td>{{adunit._id}}</td> -->
+                    <td *ngIf="helpdeskObj.username">{{i+1}}</td>
+                <td *ngIf="helpdeskObj.username">{{ helpdeskObj.username }}</td>
+                <td *ngIf="helpdeskObj.username">{{ helpdeskObj.email }}</td>
+                <td *ngIf="helpdeskObj.chat == 'Y' ">
+                    <button type="button" class="btn btn-info" routerLink="/chat/{{helpdeskObj.user_id}}">Yes</button>
+                </td>
+
+                <!-- <td><a [routerLink]="['/edit', adunit._id]" class="btn btn-primary">Edit</a></td>
+                <td><a [routerLink]="" class="btn btn-danger">Delete</a></td> -->
+                <!-- <td>
+                    <button class ="btn btn-danger" (click)="deleteSociety(societyObj._id)">Remove </button>
+                </td> -->
+
+            </tr>
+        </tbody>
+        <!-- <div *ngIf="! help_desk_lists?.length">
+           <h4 style="color:red;"> No data found...</h4>
+       </div> -->
+    </table>
+</div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+    </section>

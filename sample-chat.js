@@ -1,0 +1,17 @@
+{
+"user_id":"dsf3j4l23423423",
+"chat":{
+       "0":{
+          "admin_id":"dfdfd34434334",
+          "chat_from_user":"hi",
+          "chat_from_admin":"",
+          "timestamp":"current_time_stamp"
+    },
+   "1":{
+      "admin_id":"21312312",
+      "chat_from_user":"",
+      "chat_from_admin":"hello",
+      "timestamp":"current_time_stamp"
+    }
+ }
+}

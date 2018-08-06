@@ -1,0 +1,1 @@
+{"version":3,"file":"floors.js","sourceRoot":"","sources":["../../../server/models/floors.ts"],"names":[],"mappings":";;AAAA,mCAAqC;AAErC,IAAM,YAAY,GAAG,IAAI,QAAQ,CAAC,MAAM,CAAC;IACvC,QAAQ,EAAG,MAAM;IACjB,QAAQ,EAAG,MAAM;IACjB,UAAU,EAAG,MAAM;CACpB,CAAC,CAAC;AAEH,IAAM,KAAK,GAAG,QAAQ,CAAC,KAAK,CAAC,OAAO,EAAE,YAAY,CAAC,CAAC;AAEpD,kBAAe,KAAK,CAAC"}
